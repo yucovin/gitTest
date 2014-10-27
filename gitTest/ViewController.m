@@ -32,5 +32,6 @@
 }
 - (IBAction)clearButton:(id)sender {
     self.dayLabel.text = @"";
+    NSLog(@"クリアできた");
 }
 @end
