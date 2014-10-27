@@ -30,4 +30,7 @@
     int days = [self.dayTextField.text intValue];
     self.dayLabel.text = [NSString stringWithFormat:@"%d", days];
 }
+- (IBAction)clearButton:(id)sender {
+    self.dayLabel.text = @"";
+}
 @end
